@@ -53,3 +53,9 @@ received, then re-reads the data through the API to confirm the change was store
 Each test runs on its own fresh temporary database (pytest `tmp_path` +
 `monkeypatch`), set up by the `db_path` / `seeded_db` / `client` fixtures,
 so the tests are independent and never modify the real `database.db`.
+
+## Test results
+
+All 16 tests passing on my machine (`pytest -v`):
+
+![pytest results](Lab7-Rayna-Mhanna-tests.png)
